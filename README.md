@@ -165,41 +165,35 @@ The notebook prints a comparison table that looks something like this:
 
 4. **Model Performance:**
 
-   * Random Forest achieves R² in the range 0.65–0.80, indicating a fairly strong explanatory model but with room for improvement.
-   * MAE on yield predictions (\~ 1–2 percentage points) suggests reasonably tight error bands for investor use.
+   * Random Forest achieves R² in the range 0.97–0.99, indicating a strong explanatory model.
+   * MAE on yield predictions (\~ 0.1–0.2 percentage points) suggests reasonably no error for investor use.
 
 ---
 
 ## 🖼️ Visualizations
 
-Below are placeholders—after you run the notebook locally, export any figures (e.g., feature‐importance bar charts, predicted vs. actual scatter plots) into PNG or JPG files, then link them here.
-
 ### 1. Long-Term Yield: Feature Importance
 
-![Feature Importance (Long-Term Yield)](images/feature_importance_long_term.png)
-*Insert a bar plot showing the top 10 features here.*
+![Feature Importance (Long-Term Yield)](images/feature_importance_long.png)
 
 ### 2. Short-Term Yield: Feature Importance
 
-![Feature Importance (Short-Term Yield)](images/feature_importance_short_term.png)
-*Insert a bar plot showing top 10 features here.*
+![Feature Importance (Short-Term Yield)](images/feature_importance_short.png)
 
 ### 3. Investment Score: Feature Importance
 
-![Feature Importance (Investment Score)](images/feature_importance_investment_score.png)
-*Insert a bar plot showing top 10 features here.*
+![Feature Importance (Investment Score)](images/feature_importance_investment.png)
 
 ### 4. Predicted vs. Actual (Long-Term Yield)
 
-![Pred vs. Actual (Long-Term)](images/pred_vs_actual_long_term.png)
-*Insert a scatter plot of predicted vs. actual long-term yields here (ideally a 45° reference line).*
+![Pred vs. Actual (Long-Term)](images/actual_pred_long.png)
 
 ### 5. Predicted vs. Actual (Short-Term Yield)
 
-![Pred vs. Actual (Short-Term)](images/pred_vs_actual_short_term.png)
-*Insert a scatter plot of predicted vs. actual short-term yields here.*
+![Pred vs. Actual (Short-Term)](images/actual_pred_short.png)
 
-(You can add more visualizations as needed, for example: residual plots, correlation heatmap, distribution of yields, etc.)
+### 6. Model Evaluation
+![Model Evaluation](images/model_evaluation.png)
 
 ---
 
@@ -208,8 +202,8 @@ Below are placeholders—after you run the notebook locally, export any figures 
 1. **Clone this repo**
 
    ```bash
-   git clone https://github.com/your‐username/real_estate_yield_prediction.git
-   cd real_estate_yield_prediction
+   git clone https://github.com/RidaHajjAli/Real-Estate-Yield-Analysis.git
+   cd .\Real-Estate-Yield-Analysis\
    ```
 
 2. **Set up a virtual environment**
